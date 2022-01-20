@@ -1,4 +1,4 @@
-package encapsulation;
+package oop.encapsulation;
 
 public class Printer {
 

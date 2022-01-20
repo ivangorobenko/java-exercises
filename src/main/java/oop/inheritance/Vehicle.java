@@ -1,4 +1,4 @@
-package inheritance;
+package oop.inheritance;
 
 public class Vehicle {
     public int speed;

@@ -1,4 +1,4 @@
-package composition;
+package oop.composition;
 
 public class Kitchen {
     private final boolean own;

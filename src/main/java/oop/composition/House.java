@@ -1,4 +1,4 @@
-package composition;
+package oop.composition;
 
 public class House {
     private Room room;

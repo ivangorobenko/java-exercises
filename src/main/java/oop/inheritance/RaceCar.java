@@ -1,4 +1,4 @@
-package inheritance;
+package oop.inheritance;
 
 public class RaceCar extends Car {
     public int spoiler;

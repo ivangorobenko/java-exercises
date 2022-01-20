@@ -1,5 +1,8 @@
 package composition;
 
+import oop.composition.House;
+import oop.composition.Kitchen;
+import oop.composition.Room;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
