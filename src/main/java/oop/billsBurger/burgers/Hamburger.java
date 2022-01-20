@@ -5,7 +5,7 @@ import oop.billsBurger.additions.Addition;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hamburger {
+public abstract class Hamburger {
     public double getBasePrice() {
         return basePrice;
     }
