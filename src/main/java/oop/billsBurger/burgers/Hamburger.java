@@ -4,6 +4,7 @@ import oop.billsBurger.additions.Addition;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public abstract class Hamburger {
     public double getBasePrice() {
@@ -34,7 +35,7 @@ public abstract class Hamburger {
     public double calculatePrice() {
         List<Addition> additions = this.getAdditions();
         if (additions != null) {
-            return additions.stream().map(Addition::getPrice).toList().stream()
+            return additions.stream().map(Addition::getPrice).collect(Collectors.toList()).stream()
                     .reduce(getBasePrice(), Double::sum);
         }
         return getBasePrice();
